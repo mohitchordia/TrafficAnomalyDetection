@@ -1,0 +1,24 @@
+---------------------------------------------------------------------------
+Training stage 0
+Done sampling windows (time=1s).
+Computing lambdas... if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbstep; end
+if system_dependent('IsDebugMode')==1, dbcont; end
+done (time=39s).
+Extracting features... done (time=0s).
+Done sampling windows (time=6s).
+Extracting features... done (time=5s).
+Training AdaBoost: nWeak=128 nFtrs=2560 pos=1656 neg=19856
+ i=  16 alpha=1.054 err=0.108 loss=2.30e-04
+ i=  32 alpha=0.891 err=0.144 loss=3.56e-07
+ i=  48 alpha=0.936 err=0.133 loss=5.21e-10
+ i=  64 alpha=0.888 err=0.145 loss=1.37e-12
+ i=  80 alpha=0.955 err=0.129 loss=2.62e-15
+ i=  96 alpha=1.100 err=0.100 loss=5.15e-18
+ i= 112 alpha=0.928 err=0.135 loss=1.11e-20
+ i= 128 alpha=0.911 err=0.139 loss=2.27e-23
+Done training err=0.0000 fp=0.0000 fn=0.0000 (t=5.5s).
+Done training stage 0 (time=58s).
+---------------------------------------------------------------------------
+Done training (time=58s).
